@@ -31,11 +31,8 @@ if __name__ == '__main__':
         student_GPA.append(float(input("Enter student's GPA: ")))
         student_id.append(iterator)
         iterator += 1
-
-    print(student_GPA)
     
     for i in range(len(student_last_name) - 1):
-        print(i)
         if student_GPA[i] >= 3.5 :
             dean_list.append(format("id: " + str(student_id[i]) + " " + student_last_name[i]+ ", " + student_first_name[i] + " GPA: " + str(student_GPA[i]) + " Student is on the Dean's List!"))
         elif student_GPA[i] >= 3.25 and student_GPA[i] < 3.5:
