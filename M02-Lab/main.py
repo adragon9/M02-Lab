@@ -1,6 +1,6 @@
 # Alexander L
 # M02-Lab, main.py
-# This will get a list of students and then return who is on the Dean's List and who is on the Honor Roll a
+# This will get a list of students and then return who is on the Dean's List and who is on the Honor Roll
 
 if __name__ == '__main__':
     # Variable initialization
